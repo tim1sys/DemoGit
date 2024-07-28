@@ -21,7 +21,7 @@ public class Assignment2 {
 		WebDriver driver = new ChromeDriver();
 		// driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		// using xplicit wait
-
+		// i added a comment // i added a comment 
 		WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
 
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
