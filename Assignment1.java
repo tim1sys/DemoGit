@@ -19,7 +19,7 @@ public class Assignment1 {
 
 			How to get the Count of number of check boxes present in the page
 		
-		
+		// i added a comment // i added a comment // i added a comment 
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.cssSelector("input[value='option1']")).click();
